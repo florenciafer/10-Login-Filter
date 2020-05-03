@@ -2,23 +2,34 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            max-height: 23rem;
             padding: $sp1 0 $sp5 0;
             margin: $sp0; 
+            box-shadow: -3px 4px 6px 7px rgba(192,237,235,1);
+
+            &__column--rigth{
+                margin:$sp2 0;
+            }
             &__info {
                 display: flex;
                 flex-direction: column;
             }
-
+         &__title{
+            margin:$sp0 0;
+         }   
         &__subtitle{
             display: flex;
+            margin:$sp0 0;
            
            
         }
         &__subtitle__texts{
             color:$desaturated-dark-cyan;
+            font: weight $weights1;
         }
         &__detail{
             display: flex;
+            margin:$sp0 0;
             color:$dark-grayish-cyan;
             &__item{
                 margin:$sp0;
@@ -32,3 +43,20 @@
         }
 
     }
+    .badge{
+        border-radius: 25px;
+        font-weight: 700;
+        color: #eef6f6;
+        height: 1.50rem;
+        margin: auto;
+        padding: 2px 9px 25px 7px;
+        &--black{
+            background: black;
+            }
+            &--primary{
+                background:$desaturated-dark-cyan ;
+                margin:0 $sp0;
+            }
+    }
+        
+    

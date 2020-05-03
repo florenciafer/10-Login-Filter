@@ -7,17 +7,26 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-height: 23rem;
   padding: 1rem 0 4rem 0;
-  margin: 0.5rem; }
+  margin: 0.5rem;
+  box-shadow: -3px 4px 6px 7px #c0edeb; }
+  .card__column--rigth {
+    margin: 2rem 0; }
   .card__info {
     display: flex;
     flex-direction: column; }
+  .card__title {
+    margin: 0.5rem 0; }
   .card__subtitle {
-    display: flex; }
+    display: flex;
+    margin: 0.5rem 0; }
   .card__subtitle__texts {
-    color: #5ba4a4; }
+    color: #5ba4a4;
+    font: weight 500; }
   .card__detail {
     display: flex;
+    margin: 0.5rem 0;
     color: #7b8e8e; }
     .card__detail__item {
       margin: 0.5rem; }
@@ -26,6 +35,19 @@
     line-height: 2.5rem;
     color: #5ba4a4;
     font-weight: 700; }
+
+.badge {
+  border-radius: 25px;
+  font-weight: 700;
+  color: #eef6f6;
+  height: 1.50rem;
+  margin: auto;
+  padding: 2px 9px 25px 7px; }
+  .badge--black {
+    background: black; }
+  .badge--primary {
+    background: #5ba4a4;
+    margin: 0 0.5rem; }
 
 body {
   font-family: "Spartan", sans-serif;
