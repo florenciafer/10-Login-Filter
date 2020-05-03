@@ -1,0 +1,34 @@
+.card{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: $sp1 0 $sp5 0;
+            margin: $sp0; 
+            &__info {
+                display: flex;
+                flex-direction: column;
+            }
+
+        &__subtitle{
+            display: flex;
+           
+           
+        }
+        &__subtitle__texts{
+            color:$desaturated-dark-cyan;
+        }
+        &__detail{
+            display: flex;
+            color:$dark-grayish-cyan;
+            &__item{
+                margin:$sp0;
+            }
+        }
+        &__tag{
+            margin:0 $sp1;
+           line-height: $sp3;
+           color: $desaturated-dark-cyan;
+           font-weight:$weights2;
+        }
+
+    }

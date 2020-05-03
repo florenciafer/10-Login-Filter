@@ -1,0 +1,48 @@
+//Front-end Style Guide
+
+//Layout
+
+
+//pantallas
+$sm: 680px;
+$xl: 1280px;
+
+//Colors
+
+/// Primary
+
+$desaturated-dark-cyan: hsl(180, 29%, 50%);
+
+// neutral
+//Background//
+$bg-header-cyan: hsl(180, 52%, 96%);
+$light-grayish-cyan: hsl(180, 31%, 95%);
+$dark-grayish-cyan: hsl(180, 8%, 52%);
+$very-dark-grayish-cyan:hsl(180, 14%, 20%);
+
+//Typography
+
+/// Body Copy
+
+$font-size:15px;
+
+// Headings
+
+$font-body: 'Spartan', sans-serif;
+//Weights//
+$weights1:500;
+$weights2:700;
+//espaciados
+
+$sp0: 0.5rem; //8px
+$sp1: 1rem; //16px
+$sp2: 2rem; //32px
+$sp3: 2.5rem; //40px
+$sp4: 3rem; //48px
+$sp5: 4rem; //64px
+$sp6: 6rem; //96px
+
+//pantallas
+
+$sm: 375px;
+$xl: 1280px;
