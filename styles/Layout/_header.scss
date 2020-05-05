@@ -1,3 +1,14 @@
-header{
+.header__img {
    background:$desaturated-dark-cyan;
+   @media screen and (min-width:680px){
+      display: none;
+   }
+}
+.header__img__desktop{
+   display: none;
+   @media screen and (min-width:680px){   
+      display: block;
+      width: 1400px;
+      background:$desaturated-dark-cyan;
+   }
 }

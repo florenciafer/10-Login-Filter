@@ -6,16 +6,42 @@
 .card {
   display: flex;
   flex-direction: column;
-  align-items: center;
   max-height: 23rem;
   padding: 1rem 0 4rem 0;
-  margin: 0.5rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
   box-shadow: -3px 4px 6px 7px #c0edeb; }
+  @media screen and (min-width: 680px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      width: 1400px;
+      box-shadow: -3px 4px 6px 7px #c0edeb; } }
+  @media screen and (min-width: 680px) {
+    .card .card__img {
+      display: flex;
+      width: 172px; } }
+  .card__column--left {
+    border-bottom: solid 1px #7b8e8e; }
+    @media screen and (min-width: 680px) {
+      .card__column--left {
+        display: flex;
+        flex-direction: row;
+        border-bottom: none; } }
   .card__column--rigth {
     margin: 2rem 0; }
+    @media screen and (min-width: 680px) {
+      .card__column--rigth {
+        display: flex;
+        margin-left: 17rem; } }
   .card__info {
     display: flex;
     flex-direction: column; }
+    @media screen and (min-width: 680px) {
+      .card__info {
+        display: flex;
+        margin: 0 3rem; } }
   .card__title {
     margin: 0.5rem 0; }
   .card__subtitle {
@@ -41,8 +67,7 @@
   font-weight: 700;
   color: #eef6f6;
   height: 1.50rem;
-  margin: auto;
-  padding: 2px 9px 25px 7px; }
+  padding: 2px 9px 25px 0px; }
   .badge--black {
     background: black; }
   .badge--primary {
@@ -54,7 +79,18 @@ body {
   font-size: 15px;
   width: 375px; }
 
-header {
+.header__img {
   background: #5ba4a4; }
+  @media screen and (min-width: 680px) {
+    .header__img {
+      display: none; } }
+
+.header__img__desktop {
+  display: none; }
+  @media screen and (min-width: 680px) {
+    .header__img__desktop {
+      display: block;
+      width: 1400px;
+      background: #5ba4a4; } }
 
 /*# sourceMappingURL=style.css.map */

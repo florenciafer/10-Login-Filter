@@ -1,19 +1,52 @@
 .card{
             display: flex;
             flex-direction: column;
-            align-items: center;
             max-height: 23rem;
             padding: $sp1 0 $sp5 0;
-            margin: $sp0; 
+             margin-top: $sp1;
+            margin-left: $sp1;
+            margin-right: $sp1; 
             box-shadow: -3px 4px 6px 7px rgba(192,237,235,1);
+            @media screen and (min-width:680px){
+               display: flex;
+               flex-direction: row;
+               width: 1400px;
+               box-shadow: -3px 4px 6px 7px rgba(192,237,235,1);
+             
+            }
+            .card__img{
+                @media screen and (min-width:680px){
+                    display: flex;
+                    width: 172px;
+                   
+                }
+            }
+            &__column--left{
+                border-bottom:solid 1px $dark-grayish-cyan;
+                @media screen and (min-width:680px){
+                    display: flex;
+                    flex-direction: row;
+                    border-bottom: none;
+                    
+                }
 
+            }
             &__column--rigth{
                 margin:$sp2 0;
+                @media screen and (min-width:680px){
+                    display: flex;
+                    margin-left: 17rem;
+                }
+                
             }
             &__info {
-                display: flex;
-                flex-direction: column;
-            }
+                    display: flex;
+                    flex-direction: column;
+                    @media screen and (min-width:680px){
+                        display: flex;
+                        margin: 0 $sp4;
+                    }
+               }
          &__title{
             margin:$sp0 0;
          }   
@@ -43,13 +76,13 @@
         }
 
     }
+   
     .badge{
         border-radius: 25px;
         font-weight: 700;
         color: #eef6f6;
         height: 1.50rem;
-        margin: auto;
-        padding: 2px 9px 25px 7px;
+        padding: 2px 9px 25px 0px;
         &--black{
             background: black;
             }
